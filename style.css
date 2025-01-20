@@ -50,7 +50,6 @@ html.dark .ball{
 html.dark .illuminate-ball{
     box-shadow: var(--illuminate-ball-box-shadow);
 }
-
 .all-contents-container{
     background: var(--light-background-gradient);
     width: 100vw;
@@ -123,11 +122,11 @@ h3{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     margin-bottom: 25px;
 }
 .input-label{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 600;
     letter-spacing: 0.5px;
     color: transparent;
@@ -203,13 +202,13 @@ h3{
     position: relative;
     display: inline-block;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 15px;
+    line-height: 15px;
     text-align: center;
     text-transform: lowercase;
     letter-spacing: 0.5px;
     cursor: pointer;
-    padding: 10px 14px;
+    padding: 8px 12px;
     border: none;
     border-radius: 8px;
     background: var(--primary-gradient);
@@ -244,7 +243,7 @@ h3{
 }
 
 .pyramid-page .page-content {
-    padding: 25px 15px;
+    padding:  15px;
 }
 .pyramid-page .show-input-container{
     margin-bottom: unset;
@@ -260,7 +259,6 @@ h3{
     margin-top: 15px;
     padding: 15px;
 }
-
 .extra-settings-btn-container{
     position: absolute;
     top: 20px;

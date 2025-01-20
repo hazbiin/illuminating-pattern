@@ -39,7 +39,6 @@ rowInput.addEventListener("input", () => {
     
     if(rowInputValue < parseInt(rowInput.min)){
         rowInputValue = parseInt(rowInput.min);
-        rowInput.value = rowInputValue;
 
         errorMessage.classList.add('show');
         errorText.innerText = `min row limit is ${rowInputValue}`; 
